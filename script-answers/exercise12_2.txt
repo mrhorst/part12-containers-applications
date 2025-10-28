@@ -1,0 +1,16 @@
+Script started on Sun Oct 26 18:24:19 2025
+[1m[7m%[27m[1m[0m                                                                          ]2;matheushorst@neumann: ~/projects/fso25/part12/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[32m~/projects/fso25/part12/part12-containers-applications/script-answers[01;34m(main ✗)[00m [K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsexercise12_1.txt exercise12_2.txt typescript
+[1m[7m%[27m[1m[0m                                                                          ]2;matheushorst@neumann: ~/projects/fso25/part12/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[32m~/projects/fso25/part12/part12-containers-applications/script-answers[01;34m(main ✗)[00m [K[?1h=[?2004hddocker container run -it ubuntu bash[?1l>[?2004l
+]2;docker container run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Kb8a35db46e38: Pulling fs layer [1B[1A[2Kb8a35db46e38: Downloading  294.9kB/28.86MB[1B[1A[2Kb8a35db46e38: Downloading  4.428MB/28.86MB[1B[1A[2Kb8a35db46e38: Downloading  9.142MB/28.86MB[1B[1A[2Kb8a35db46e38: Downloading  13.86MB/28.86MB[1B[1A[2Kb8a35db46e38: Downloading  18.57MB/28.86MB[1B[1A[2Kb8a35db46e38: Downloading  23.01MB/28.86MB[1B[1A[2Kb8a35db46e38: Downloading  27.72MB/28.86MB[1B[1A[2Kb8a35db46e38: Verifying Checksum [1B[1A[2Kb8a35db46e38: Download complete [1B[1A[2Kb8a35db46e38: Extracting  294.9kB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  5.898MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  8.552MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  11.21MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting   17.4MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting     23MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  24.18MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  26.84MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  28.61MB/28.86MB[1B[1A[2Kb8a35db46e38: Extracting  28.86MB/28.86MB[1B[1A[2Kb8a35db46e38: Pull complete [1BDigest: sha256:66460d557b25769b102175144d538d88219c077c678a49af4afca6fbfc1b5252
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@18eb0030a044: /root@18eb0030a044:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@18eb0030a044: /root@18eb0030a044:/# touch /usr/sre c/app/index.js
+[?2004l[?2004h]0;root@18eb0030a044: /root@18eb0030a044:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                          ]2;matheushorst@neumann: ~/projects/fso25/part12/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[32m~/projects/fso25/part12/part12-containers-applications/script-answers[01;34m(main ✗)[00m [K[?1h=[?2004he eexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sun Oct 26 18:26:02 2025
