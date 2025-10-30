@@ -63,3 +63,4 @@ typings/
 
 Dockerfile
 .dockerignore
+redis_data
