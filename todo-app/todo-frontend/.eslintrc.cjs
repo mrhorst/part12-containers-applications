@@ -18,4 +18,5 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  overrides: [{ files: ['*.test.{js, jsx, ts, tsx}'], env: { jest: true } }],
 }

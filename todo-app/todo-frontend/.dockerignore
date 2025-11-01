@@ -1,0 +1,38 @@
+# asked an llm to generate .dockerignore for me
+
+# dependencies (always reinstall in container)
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env and secrets (Vite reads env at build time; don’t send local files)
+.env
+.env.*
+!.env.example
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+
+# tests and coverage (optional; keep if your test stage copies source anyway)
+coverage/
+.vitest/
+jest/
+spec/
+__tests__/
+
+# build output (should be produced inside container)
+dist/
+
+# VCS and editor configs you don’t need in the image
+.git/
+.gitignore
+.gitattributes
+.idea/
+.vscode/
+
+# caches
+.cache/
+.eslintcache
