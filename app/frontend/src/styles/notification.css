@@ -1,0 +1,15 @@
+.notification {
+  border: 1px solid;
+  padding: 5px;
+  background-color: #f5f5f5;
+  letter-spacing: 0.2;
+  font-size: medium;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.success {
+  color: #1f991f;
+}

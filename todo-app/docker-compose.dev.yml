@@ -3,7 +3,7 @@ services:
     image: todo-frontend-dev
     build:
       context: ./todo-frontend
-      dockerfile: ./todo-frontend/dev.Dockerfile
+      dockerfile: ./dev.Dockerfile
     volumes:
       - ./todo-frontend:/usr/src/app
     environment:
@@ -39,7 +39,7 @@ services:
     image: todo-backend-dev
     build:
       context: ./todo-backend
-      dockerfile: ./todo-backend/dev.Dockerfile
+      dockerfile: ./dev.Dockerfile
     environment:
       - REDIS_URL=redis://redis:6379
       - MONGO_URL=mongodb://root:example@mongo:27017/the_database?authSource=admin

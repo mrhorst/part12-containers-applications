@@ -1,0 +1,24 @@
+{
+  "name": "bloglist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node --watch index.js",
+    "test": "NODE_ENV=test node --test --test-concurrency=1",
+    "start:test": "NODE_ENV=test node --watch index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "author": "mrhorst",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}

@@ -1,6 +1,5 @@
 FROM node:20 AS base
 WORKDIR /usr/src/app
-ENV VITE_BACKEND_URL=http://localhost:3000
 
 FROM base AS test
 COPY package.json package-lock.json ./
