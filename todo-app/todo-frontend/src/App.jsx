@@ -1,12 +1,12 @@
-import './App.css';
+import './App.css'
 import TodoView from './Todos/TodoView'
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <TodoView />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
