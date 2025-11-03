@@ -11,6 +11,8 @@ RUN npm run test
 FROM base AS build
 COPY package.json package-lock.json ./
 RUN npm ci
+ARG VITE_BACKEND_URL=/api
+ENV VITE_BACKEND_URL=${VITE_BACKEND_URL}
 COPY . .
 RUN npm run build
 
