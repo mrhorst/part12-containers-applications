@@ -2,3 +2,4 @@
 /frontend/.env
 
 node_modules
+.dockerignore

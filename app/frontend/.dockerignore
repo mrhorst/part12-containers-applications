@@ -1,3 +1,20 @@
 node_modules
 .git
 dist
+
+# Common
+.git
+.gitignore
+Dockerfile*    # keep in repo, but do NOT ignore here (remove this if added by mistake)
+docker-compose*.yml
+
+# Node/React
+node_modules
+dist
+build
+coverage
+
+# Env & system
+.env*
+*.log
+.DS_Store
